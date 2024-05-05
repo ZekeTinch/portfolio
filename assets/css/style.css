@@ -1,5 +1,6 @@
 *{
     box-sizing:border-box;
+    flex-wrap: wrap;
 }
 
 .body{
@@ -41,7 +42,23 @@ nav{
     background: blue;
 }
 
-.ul{
+ul{
     display: flex;
+    list-style-type: none;
+    gap: 5px;
 }
 
+.plan{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 40px;
+    text-align: start;
+    background: grey;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: last baseline;
+
+}
