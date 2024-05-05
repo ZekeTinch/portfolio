@@ -1,0 +1,56 @@
+*{
+    box-sizing:border-box;
+}
+
+.body{
+    font-family: arial;
+    margin: 0%;
+}
+
+h1{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 40px;
+    text-align: start;
+    background: grey;
+    color: white;
+
+}
+
+nav{
+    display: flex;
+    text-align: end;
+    flex-direction: row;
+    justify-content: end;
+    
+}
+
+.card {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+
+}
+
+.title{
+    display: flex;
+    padding: 50px;
+    background: rgb(218, 28, 28);
+    justify-content: end;
+}
+
+.about{
+    display: flex;
+    padding: 50px;
+    background: blue;
+}
+
+.a{
+    display: flex;
+    padding: 50px;
+    flex-direction: row;
+    justify-content: end;
+}
+
