@@ -31,6 +31,8 @@ nav{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    display: flex;
+    justify-content: space-between;
 
 }
 
@@ -47,10 +49,7 @@ nav{
     background: blue;
 }
 
-.a{
+.ul{
     display: flex;
-    padding: 50px;
-    flex-direction: row;
-    justify-content: end;
 }
 
